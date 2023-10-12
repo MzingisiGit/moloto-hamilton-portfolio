@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content="width=device-width", initial-scale="1.0">
+    <title>Hamilton's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6060bbe4f5.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+   <div id = "header">
+      <div class="container">
+            <nav>
+                <img src ="images/logo.png" class="logo" width="200" height="100">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+
+                </ul>
+                <i class="fa-solid fa-bars " onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> <br>IOS Developer/Software Developer</p>
+                <h2>Hello, I am <span> Hamilton </span><br>Moloto From South Africa</h2>
+            </div>
+      </div>
+   </div>
+ <!-- --------------------about----------------  -->
+   <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Makaveli.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About me</h1>
+                    <p>I am An IOS Developer, with 6 moths of experience.
+                        I started my IOS development role at IACD from September
+                        2022 to February 2023, I also have skills in C++, SQL , PLSQL, swift And other scripting languages like Python. I like to call my self As a quick witted person as I like to manoeuvre solving much
+                        Of technical issues within the global community . I like to work In a team as I have good communication skills and a good Personality. I am a goal driven young man who’s looking to Empower and impact the youth of this generation with a bit
+                        Of technology and the coding environment.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skill</p>
+                            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-content active-tab " id="skills">
+                            <ul>
+                            <li> <span>UI/UX</span><br> Web Designing</li>
+                            <li> <span>App Development</span><br>Building IOS Apllications</li>
+                            <li> <span>Software Engineering</span><br>Building Systems </li>
+                            
+                            </ul>
+                            
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <ul>
+                            <li> <span>2022 - 2023</span><br> IOS Development At IACD</li>
+                            <li> <span>2023 - Current</span><br>Web Development At Mzingisi</li>
+                            </ul>
+                        </div>
+                        <div class="tab-content" id="education">
+                            <ul>
+                            <li> <span>2013 - 2017</span><br> Mountain View Secondary School</li>
+                            <li> <span>2019 - 2023</span><br>Tshwane University of technology</li>
+                    
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!--------------------------------Services------------------------------->
+   <div id="services">
+
+         <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> planning, creating and coding internet sites and web pages, many of which combine text with sounds, pictures, graphics and video clips for our clients.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Application Development</h2>
+                        <p>  responsible for designing and coding functional software programs and applications.</p>
+                        <a href="#">Learn more</a>   
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <p> creating the user interface for an app, website, or other interactive media.</p>
+                        <a href="#">Learn more</a>
+                    </div>    
+            </div>
+
+         </div>
+            
+
+        
+
+
+   </div>
+
+
+   <!----------------------------Portfolio-------------------->
+
+
+   <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/image1.jpg">
+                    <div class="layer">
+                        <h3>Web Site</h3>
+                        <p>This website was designed to centralize all the topics and information which are trending within our country and give more information on education and other things</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                   
+                </div>
+                <div class="work">
+                    <img src="images/image4.jpg">
+                    <div class="layer">
+                        <h3>Booking Application</h3>
+                        <p>This app was designed to make bookings in clubs and resturants, it is user friendly and saves you a lot of time and energy </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/image3.jpg">
+                    <div class="layer">
+                        <h3>Booking Application</h3>
+                        <p>This app was designed to make bookings in clubs and resturants, it is user friendly and saves you a lot of time and energy </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+   </div>
+   <!--------------------------contacts------------------------>
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-share-from-square"></i> molotokgaka@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 0745485077</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/randy.kg.3"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/yungn_nonchalnt"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/madeinturf_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/hamilton-moloto-929295255"><i class="fa-brands fa-linkedin"></i></a>
+                </div> 
+                <a href="images/Hamilton Resumes.pdf" download class="btn btn2">Download Resume</a>
+ 
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright ©Hamilton. made by Hamilton Moloto </p>
+        </div>
+    </div>
+   </div>
+   <script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-content")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+   </script>    
+   <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+            
+        }
+
+   </script> 
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxcOSSwlIwOkht2sJv_j--tLOIVViMW0S6iAc4IKIGkg7CORlAiE2uQ_97SGc7kdBXA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+   
+</body>
+</html>
+
